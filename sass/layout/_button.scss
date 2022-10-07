@@ -1,0 +1,24 @@
+.button {
+  display: inline-block;
+  border-width: 0;
+  border-radius: 4px;
+  border-style: none;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px $shadow-btn;
+
+  background-color: $accent-color;
+  color: $white-color;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  transition: background-color $time-function;
+
+  &:hover,
+  &:focus {
+    background-color: $activ-btn-color;
+  }
+}
