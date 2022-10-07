@@ -1,0 +1,132 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--section-background-color);
+  line-height: 1.71;
+}
+
+.footer .footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-container .item-address {
+  margin-right: 70px;
+}
+
+.footer .footer-logo,
+.footer .address {
+  color: var(--white-color);
+}
+
+address {
+  font-style: normal;
+}
+
+.footer-address .item > .address,
+.footer-address .item > .contacts {
+  display: block;
+}
+
+.footer-contacts .item > .contacts {
+  margin-top: 9px;
+}
+
+.footer-contacts .contacts {
+  color: var(--secondary-white-color);
+  transition: color 250ms var(--time-function);
+}
+
+.item-socials {
+  margin-right: 93px;
+}
+
+.item-socials .socials-list {
+  display: flex;
+  gap: 10px;
+}
+
+.socials-list .list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  background: var(--footer-socials-background);
+  border-radius: 50%;
+  fill: var(--white-color);
+
+  transition: background 250ms var(--time-function);
+}
+
+.socials-list .list-icon:hover,
+.socials-list .list-icon:focus {
+  background: var(--accent-color);
+}
+
+.title-socials,
+.footer-form > .form-title {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.footer-form-wrap {
+  display: flex;
+}
+
+.footer-input {
+  outline: none;
+  padding-left: 16px;
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+
+  color: var(--white-color);
+
+  border: 1px solid var(--border-input-footer);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px var(--shadow-btn);
+  background: var(--section-background-color);
+  transition: border 250ms var(--time-function);
+}
+
+.footer-input:-webkit-autofill {
+  -webkit-text-fill-color: var(--white-color);
+  box-shadow: 0 0 0 100px var(--section-background-color) inset;
+}
+
+.footer-input:focus {
+  border: 1px solid var(--white-color);
+}
+
+.footer-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: var(--secondary-white-color);
+}
+
+.footer-form-wrap > .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  height: 50px;
+  width: 200px;
+}

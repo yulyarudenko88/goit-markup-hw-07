@@ -4,6 +4,13 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+
+  &-white {
+    display: block;
+    margin-bottom: 20px;
+
+    color: $white-color;
+  }
 }
 
 .logo__accent {

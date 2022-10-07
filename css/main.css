@@ -115,6 +115,11 @@ p {
   font-size: 26px;
   line-height: 1.2;
 }
+.logo-white {
+  display: block;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
 
 .logo__accent {
   color: #2196f3;
@@ -239,7 +244,7 @@ p {
       flex-basis: calc((100% - 90px) / 4);
 }
 
-.benefits-section__icon-wrap {
+.benefits-section__wrap {
   width: 270px;
   height: 120px;
   padding: 25px 100px;
@@ -409,10 +414,6 @@ p {
   border: 1px solid #2196f3;
 }
 
-/* Benefits section */
-/* Activity section */
-/* Team section */
-/* Footer section */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -587,6 +588,10 @@ address {
   width: 200px;
 }
 
+/* Benefits section */
+/* Activity section */
+/* Team section */
+/* Footer section */
 /* Backdrop&Modal */
 .backdrop.is-hidden {
   /* visibility: hidden; */
