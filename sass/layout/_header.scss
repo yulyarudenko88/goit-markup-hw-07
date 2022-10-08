@@ -1,5 +1,5 @@
 .header {
-  border-bottom: 1px solid $border-header-color;
+  @include border(1px, solid, $border-header-color);
 }
 
 .header__body {

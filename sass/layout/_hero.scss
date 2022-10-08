@@ -6,7 +6,8 @@
 
   background-image: linear-gradient(
       $hero-linear-gradient,
-      $hero-linear-gradient),
+      $hero-linear-gradient
+    ),
     url("../images/hero-banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -23,9 +24,7 @@
   margin-left: auto;
 
   color: $white-color;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  @include font(900, 44px, 1.36);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }

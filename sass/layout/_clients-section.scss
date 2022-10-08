@@ -5,13 +5,10 @@
 }
 
 .clients-section__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 92px;
+  @extend %flex;
+  @include size(170px, 92px);
 
-  border: 1px solid $social-icon-color;
+  @include border(1px, solid, $social-icon-color);
   border-radius: 4px;
 
   fill: $social-icon-color;
@@ -21,6 +18,6 @@
   &:hover,
   &:focus {
     fill: $accent-color;
-    border: 1px solid $accent-color;
+    @include border(1px, solid, $accent-color);
   }
 }

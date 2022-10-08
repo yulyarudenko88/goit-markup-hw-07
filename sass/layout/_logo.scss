@@ -1,9 +1,7 @@
 .logo {
   color: $dark-logo-color;
   font-family: $secondary-text-style;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+  @include font(700, 26px, 1.2);
 
   &-white {
     display: block;
