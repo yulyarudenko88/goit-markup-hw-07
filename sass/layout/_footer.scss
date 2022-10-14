@@ -40,7 +40,10 @@
   color: $secondary-white-color;
   transition: color $time-function;
 
-  
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .footer__title {
